@@ -1,6 +1,6 @@
 # Flash Cards App
 
-This is a React flash cards application created for the `roadman.sh` learning platform. It was built as a training project to practice React fundamentals, state management, and user interaction using Vite.
+This is a React flash cards application created for the `https://roadmap.sh/projects/flash-cards` learning platform. It was built as a training project to practice React fundamentals, state management, and user interaction using Vite.
 
 ## What this project is for
 
