@@ -1,16 +1,44 @@
-# React + Vite
+# Flash Cards App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a React flash cards application created for the `roadman.sh` learning platform. It was built as a training project to practice React fundamentals, state management, and user interaction using Vite.
 
-Currently, two official plugins are available:
+## What this project is for
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+The app is designed to help learners review programming concepts with interactive flash cards. Each card shows a question, and users can click the card to reveal the answer. It is intended as a simple study tool for frontend development concepts.
 
-## React Compiler
+## Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Interactive flash cards that flip between question and answer
+- Progress bar showing current card position and completion percentage
+- Previous and Next navigation buttons for sequential review
+- State resetting to hide the answer when changing cards
+- Built with React, Vite, and modern JavaScript
 
-## Expanding the ESLint configuration
+## How to use
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. Clone or download the repository.
+2. Install dependencies:
+
+   ```bash
+   npm install
+   ```
+
+3. Start the development server:
+
+   ```bash
+   npm run dev
+   ```
+
+4. Open the provided local URL in your browser.
+5. Click on the card to toggle between the question and answer.
+6. Use the `Previous` and `Next` buttons to move through the flash cards.
+
+## Project structure
+
+- `src/App.jsx` - main application component and logic
+- `src/questions.js` - flash card data for questions and answers
+- `src/App.css` - application styling
+
+## Notes
+
+This project is a small learning exercise from `roadman.sh` and is intended to demonstrate a basic React flash cards interface with simple navigation and progress tracking.
